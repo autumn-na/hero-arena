@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<CardInfo>
+  <card_total> 27 </card_total>
+  
+    
+  <card>
+    <id> 0 </id>
+    <ad> 0 </ad>
+    <tp> 0 </tp>
+    <en> 0 </en>
+    <job>WARRIOR</job>
+    <key>none</key>
+    <notice>카드0 발동!</notice>
+    <move>
+      <move_type> RELATIVE </move_type>
+      <move_point>
+        <x> 0 </x>
+        <y> 0 </y>
+      </move_point>
+    </move>
+    <attack>  
+      <attack_type> RELATIVE </attack_type>
+      <attack_total> 0 </attack_total>
+    </attack>
+  </card>
+
+  <!-- 여기부터 전사 카드들... (ID 1 ~ 6) -->
+
+  <card>
+    <id> 1 </id>
+		<ad> 15 </ad>
+		<tp> 7 </tp>
+		<en> 10 </en>
+    <job>WARRIOR</job>
+    <key>attack_1</key>
+    <notice>내려 찍기</notice>
+    <move>
+      <move_type> RELATIVE </move_type>
+      <move_point>
+        <x> 0 </x>
+        <y> 0 </y>
+      </move_point>
+    </move>
+    <attack>
+      <attack_type> RELATIVE </attack_type>
+      <attack_total> 2 </attack_total>
+      <attack_point_0>
+        <x> 1 </x>
+        <y> 0 </y>
+      </attack_point_0>
+      <attack_point_1>
+        <x> 0 </x>
+        <y> 0 </y>
+      </attack_point_1>
+    </attack>
+	</card>
+
+  <card>
+    <id> 2 </id>
+    <ad> 20 </ad>
+    <tp> 5 </tp>
+    <en> 20 </en>
+    <job>WARRIOR</job>
+    <key>attack_2</key>
+    <notice>지각 붕괴</notice>
+    <move>
+      <move_type> RELATIVE </move_type>
+      <move_point>
+        <x> 0 </x>
+        <y> 0 </y>
+      </move_point>
+    </move>
+    <attack>
+      <attack_type> RELATIVE </attack_type>
+      <attack_total> 4 </attack_total>
+      <attack_point_0>
+        <x> 1 </x>
+        <y> 0 </y>
+      </attack_point_0>
+      <attack_point_1>
+        <x> 1 </x>
+        <y> -1 </y>
+      </attack_point_1>
+      <attack_point_2>
+        <x> 0 </x>
+        <y> -1 </y>
+      </attack_point_2>
+      <attack_point_3>
+        <x> 0 </x>
+        <y> 0 </y>
+      </attack_point_3>
+    </attack>
+  </card>
+
+  <card>
+    <id> 3 </id>
+    <ad> 25 </ad>
+    <tp> 4 </tp>
+    <en> 30 </en>
+    <job>WARRIOR</job>
+    <key>attack_3</key>
+    <notice>칼부림</notice>
+    <move>
+      <move_type> RELATIVE </move_type>
+      <move_point>
+        <x> 1 </x>
+        <y> 0 </y>
+      </move_point>
+    </move>
+   <attack>
+      <attack_type> RELATIVE </attack_type>
+      <attack_total> 3 </attack_total>
+      <attack_point_0>
+        <x> 1 </x>
+        <y> 1 </y>
+      </attack_point_0>
+      <attack_point_1>
+        <x> 1 </x>
+        <y> 0 </y>
+      </attack_point_1>
+      <attack_point_2>
+        <x> 1 </x>
+        <y> -1 </y>
+      </attack_point_2>
+    </attack>
+  </card>
+
+  <card>
+    <id> 4 </id>
+    <ad> 30 </ad>
+    <tp> 5 </tp>
+    <en> 25 </en>
+    <job>WARRIOR</job>
+    <key>attack_4</key>
+    <notice>3검술</notice>     
+    
+    <move>
+      <move_type> RELATIVE </move_type>
+      <move_point>
+        <x> 1 </x>
+        <y> 0 </y>
+      </move_point>
+    </move>
+   <attack>
+      <attack_type> RELATIVE </attack_type>
+      <attack_total> 4 </attack_total>
+      <attack_point_0>
+        <x> -1 </x>
+        <y> 1 </y>
+      </attack_point_0>
+      <attack_point_1>
+        <x> 0 </x>
+        <y> 1 </y>
+      </attack_point_1>
+      <attack_point_2>
+        <x> 1 </x>
+        <y> 1 </y>
+      </attack_point_2>
+      <attack_point_3>
+        <x> 0 </x>
+        <y> 0 </y>
+      </attack_point_3>
+    </attack>
+  </card>
+
+  <card>
+    <id> 5 </id>
+    <ad> 0 </ad>
+    <tp> 10 </tp>
+    <en> 20 </en>
+    <job>WARRIOR</job>
+    <key>attack_5</key>
+    <notice>강철의 의지</notice>
+    <move>
+      <move_type> RELATIVE </move_type>
+      <move_point>
+        <x> 0 </x>
+        <y> 0 </y>
+      </move_point>
+    </move>
+   <attack>
+      <attack_type> RELATIVE </attack_type>
+      <attack_total> 0 </attack_total>
+    </attack>
+  </card>
+
+  <card>
+    <id> 6 </id>
+    <ad> 40 </ad>
+    <tp> 10 </tp>
+    <en> 45 </en>
+    <job>WARRIOR</job>
+    <key>attack_6</key>
+    <notice>진정한 검</notice>
+    <move>
+      <move_type> RELATIVE </move_type>
+      <move_point>
+        <x> 0 </x>
+        <y> 0 </y>
+      </move_point>
+    </move>
+  <attack>
+      <attack_type> RELATIVE </attack_type>
+      <attack_total> 9 </attack_total>
+      <attack_point_0>
+        <x> -1 </x>
+        <y> 1 </y>
+      </attack_point_0>
+      <attack_point_1>
+        <x> 0 </x>
+        <y> 1 </y>
+      </attack_point_1>
+      <attack_point_2>
+        <x> 1 </x>
+        <y> 1 </y>
+      </attack_point_2>
+      <attack_point_3>
+        <x> -1 </x>
+        <y> 0 </y>
+      </attack_point_3>
+      <attack_point_4>
+        <x> 1 </x>
+        <y> 0 </y>
+      </attack_point_4>
+       <attack_point_5>
+        <x> -1 </x>
+        <y> -1 </y>
+      </attack_point_5>
+      <attack_point_6>
+        <x> 0 </x>
+        <y> -1 </y>
+      </attack_point_6>
+      <attack_point_7>
+        <x> 1 </x>
+        <y> -1 </y>
+      </attack_point_7>
+      <attack_point_8>
+        <x> 0 </x>
+        <y> 0 </y>
+      </attack_point_8>
+    </attack>
+  </card>
+
+  <!-- 여기까지 전사 카드들... (ID 1 ~ 6) -->
+
+  <!-- 여기부터 WIZARD 카드들... (ID 7 ~ 12) -->
+  
+   <card>
+    <id> 7 </id>          <!-- 7 : 마녀 기본 기술 -->
+    <ad> 15 </ad>
+    <tp> 6 </tp>
+    <en> 10 </en>
+    <job>WIZARD</job>
+    <key>attack_1</key>
+    <notice>불기둥</notice>
+    <move>
+      <move_type> RELATIVE </move_type>
+      <move_point>
+        <x> 0 </x>
+        <y> 0 </y>
+      </move_point>
+    </move>
+  <attack>
+      <attack_type> RELATIVE </attack_type>
+      <attack_total> 2 </attack_total>
+      <attack_point_0>
+        <x> 1 </x>
+        <y> 1 </y>
+      </attack_point_0>
+      <attack_point_1>
+        <x> 1 </x>
+        <y> 0 </y>
+      </attack_point_1>
+    </attack>
+  </card>
+
+  <card>
+    <id> 8 </id>          <!-- 8 : 마녀 기술 1 -->
+    <ad> 20 </ad>
+    <tp> 7 </tp>
+    <en> 25 </en>
+    <job>WIZARD</job>
+    <key>attack_2</key>
+    <notice>화염구</notice>
+    <move>
+      <move_type> RELATIVE </move_type>
+      <move_point>
+        <x> 0 </x>
+        <y> 0 </y>
+      </move_point>
+    </move>
+  <attack>
+      <attack_type> RELATIVE </attack_type>
+      <attack_total> 3 </attack_total>
+      <attack_point_0>
+        <x> 1 </x>
+        <y> 0 </y>
+      </attack_point_0>
+      <attack_point_1>
+        <x> 2 </x>
+        <y> 1 </y>
+      </attack_point_1>
+      <attack_point_2>
+        <x> 2 </x>
+        <y> -1 </y>
+      </attack_point_2>
+    </attack>
+  </card>  
+
+ <card>
+    <id> 9 </id>          <!-- 9 : 마녀 기술 2 -->
+    <ad> 30 </ad>
+    <tp> 2 </tp>
+    <en> 40 </en>
+    <job>WIZARD</job>
+    <key>attack_3</key>
+    <notice>화산 비룡</notice>
+    <move>
+      <move_type> RELATIVE </move_type>
+      <move_point>
+        <x> 0 </x>
+        <y> 0 </y>
+      </move_point>
+    </move>
+  <attack>
+      <attack_type> RELATIVE </attack_type>
+      <attack_total> 5 </attack_total>
+      <attack_point_0>
+        <x> 0 </x>
+        <y> 1 </y>
+      </attack_point_0>
+      <attack_point_1>
+        <x> 1 </x>
+        <y> 1 </y>
+      </attack_point_1>
+      <attack_point_2>
+        <x> 1 </x>
+        <y> 0 </y>
+      </attack_point_2>
+        <attack_point_3>
+        <x> 1 </x>
+        <y> -1 </y>
+      </attack_point_3>
+      <attack_point_4>
+        <x> 0 </x>
+        <y> -1 </y>
+      </attack_point_4>
+    </attack>
+  </card>    
+  
+   <card>
+    <id> 10 </id>          <!-- 10 : 마녀 기술 3 -->
+    <ad> 25 </ad>
+    <tp> 8 </tp>
+    <en> 20 </en>
+    <job>WIZARD</job>
+    <key>attack_4</key>
+    <notice>화염 분사</notice>
+    <move>
+      <move_type> RELATIVE </move_type>
+      <move_point>
+        <x> 0 </x>
+        <y> 0 </y>
+      </move_point>
+    </move>
+  <attack>
+      <attack_type> RELATIVE </attack_type>
+      <attack_total> 3 </attack_total>
+      <attack_point_0>
+        <x> -1 </x>
+        <y> 0 </y>
+      </attack_point_0>
+      <attack_point_1>
+        <x> 1 </x>
+        <y> 0 </y>
+      </attack_point_1>
+      <attack_point_2>
+        <x> 0 </x>
+        <y> 0 </y>
+      </attack_point_2>
+    </attack>
+  </card>    
+
+  <card>
+    <id> 11 </id>          <!-- 11 : 마녀 특수 기술 -->
+    <ad> 0 </ad>
+    <tp> 10 </tp>
+    <en> 20 </en>
+    <job>WIZARD</job>
+    <key>attack_5</key>
+    <notice>마력 충전</notice>
+    <move>
+      <move_type> RELATIVE </move_type>
+      <move_point>
+        <x> 0 </x>
+        <y> 0 </y>
+      </move_point>
+    </move>
+  <attack>
+      <attack_type> RELATIVE </attack_type>
+      <attack_total> 0 </attack_total>
+    </attack>
+  </card>     
+
+  <card>
+    <id> 12 </id>          <!-- 12 : 마녀 궁극기 -->
+    <ad> 35 </ad>
+    <tp> 10 </tp>
+    <en> 40 </en>
+    <job>WIZARD</job>
+    <key>attack_6</key>
+    <notice>대마법 유성</notice>
+    <move>
+      <move_type> RELATIVE </move_type>
+      <move_point>
+        <x> 0 </x>
+        <y> 0 </y>
+      </move_point>
+    </move>
+  <attack>
+      <attack_type> RELATIVE </attack_type>
+      <attack_total> 4 </attack_total>
+      <attack_point_0>
+        <x> -1 </x>
+        <y> 0 </y>
+      </attack_point_0>
+      <attack_point_1>
+        <x> 1 </x>
+        <y> 0 </y>
+      </attack_point_1>
+        <attack_point_2>
+        <x> 0 </x>
+        <y> 1 </y>
+      </attack_point_2>
+      <attack_point_3>
+        <x> 0 </x>
+        <y> -1 </y>
+      </attack_point_3>
+    </attack>
+  </card>     
+
+<!-- WIZARD 카드 끝 (ID 7 ~ 12) -->
+
+<!-- 여기부터 이동 카드들... (ID 13 ~ 20) -->
+
+ <card>
+    <id> 13 </id>          <!-- 13 : 좌로 이동 -->
+    <ad> 0 </ad>
+    <tp> 0 </tp>
+    <en> 0 </en>
+    <job>NONE</job>
+    <key>move</key>
+      <notice>이동</notice>
+    <move>
+      <move_type> RELATIVE </move_type>
+      <move_point>
+        <x> -1 </x>
+        <y> 0 </y>
+      </move_point>
+    </move>
+  <attack>
+      <attack_type> RELATIVE </attack_type>
+      <attack_total> 0 </attack_total>
+    </attack>
+  </card>     
+
+ <card>
+    <id> 14 </id>          <!-- 14 : 우로 이동 -->
+    <ad> 0 </ad>
+    <tp> 0 </tp>
+    <en> 0 </en>
+    <job>NONE</job>
+    <key>move</key>
+      <notice>이동</notice>
+    <move>
+      <move_type> RELATIVE </move_type>
+      <move_point>
+        <x> 1 </x>
+        <y> 0 </y>
+      </move_point>
+    </move>
+  <attack>
+      <attack_type> RELATIVE </attack_type>
+      <attack_total> 0 </attack_total>
+    </attack>
+  </card>  
+  
+ <card>
+    <id> 15 </id>          <!-- 15 : 위로 이동 -->
+    <ad> 0 </ad>
+    <tp> 0 </tp>
+    <en> 0 </en>
+    <job>NONE</job>
+    <key>move</key>
+    <notice>이동</notice>
+    <move>
+      <move_type> RELATIVE </move_type>
+      <move_point>
+        <x> 0 </x>
+        <y> 1 </y>
+      </move_point>
+    </move>
+  <attack>
+      <attack_type> RELATIVE </attack_type>
+      <attack_total> 0 </attack_total>
+    </attack>
+  </card> 
+  
+ <card>
+    <id> 16 </id>          <!-- 16 : 아래로 이동 -->
+    <ad> 0 </ad>
+    <tp> 0 </tp>
+    <en> 0 </en>
+    <job>NONE</job>
+    <key>move</key>
+    <notice>이동</notice>
+    <move>
+      <move_type> RELATIVE </move_type>
+      <move_point>
+        <x> 0 </x>
+        <y> -1 </y>
+      </move_point>
+    </move>
+  <attack>
+      <attack_type> RELATIVE </attack_type>
+      <attack_total> 0 </attack_total>
+    </attack>
+  </card> 
+  
+<card>
+    <id> 17 </id>          <!-- 17 : 좌로 두칸 이동 -->
+    <ad> 0 </ad>
+    <tp> 0 </tp>
+    <en> 0 </en>
+    <job>NONE</job>
+    <key>move</key>
+    <notice>이동</notice>
+    <move>
+      <move_type> RELATIVE </move_type>
+      <move_point>
+        <x> -2 </x>
+        <y> 0 </y>
+      </move_point>
+    </move>
+  <attack>
+      <attack_type> RELATIVE </attack_type>
+      <attack_total> 0 </attack_total>
+    </attack>
+  </card>     
+
+ <card>
+    <id> 18 </id>          <!-- 18 : 우로 두칸 이동 -->
+    <ad> 0 </ad>
+    <tp> 0 </tp>
+    <en> 0 </en>
+    <job>NONE</job>
+    <key>move</key>
+    <notice>이동</notice>
+    <move>
+      <move_type> RELATIVE </move_type>
+      <move_point>
+        <x> 2 </x>
+        <y> 0 </y>
+      </move_point>
+    </move>
+  <attack>
+      <attack_type> RELATIVE </attack_type>
+      <attack_total> 0 </attack_total>
+    </attack>
+  </card>  
+  
+ <card>
+    <id> 19 </id>          <!-- 19 : 위로 두칸 이동 -->
+    <ad> 0 </ad>
+    <tp> 0 </tp>
+    <en> 0 </en>
+    <job>NONE</job>
+    <key>move</key>
+    <notice>이동</notice>
+    <move>
+      <move_type> RELATIVE </move_type>
+      <move_point>
+        <x> 0 </x>
+        <y> 2 </y>
+      </move_point>
+    </move>
+  <attack>
+      <attack_type> RELATIVE </attack_type>
+      <attack_total> 0 </attack_total>
+    </attack>
+  </card> 
+  
+ <card>
+    <id> 20 </id>          <!-- 20 : 아래로 두칸 이동 -->
+    <ad> 0 </ad>
+    <tp> 0 </tp>
+    <en> 0 </en>
+    <job>NONE</job>
+    <key>move</key>
+    <notice>이동</notice>
+    <move>
+      <move_type> RELATIVE </move_type>
+      <move_point>
+        <x> 0 </x>
+        <y> -2 </y>
+      </move_point>
+    </move>
+  <attack>
+      <attack_type> RELATIVE </attack_type>
+      <attack_total> 0 </attack_total>
+    </attack>
+  </card> 
+
+<!-- 여기까지 이동 카드들... (ID 13 ~ 20) -->
+    
+<!-- 여기부터 보스2 카드들... (ID 21 ~ 26) -->
+    
+ <card>
+    <id> 21 </id>          <!-- 21 : 보스 기본 기술 (공격1) -->
+    <ad> 20 </ad>
+    <tp> 10 </tp>
+    <en> 0 </en>
+    <job>NONE</job>
+    <key>attack_1</key>
+    <notice>카드21 발동!</notice>
+    <move>
+      <move_type> RELATIVE </move_type>
+      <move_point>
+        <x> 0 </x>
+        <y> 0 </y>
+      </move_point>
+    </move>
+  <attack>
+      <attack_type> RELATIVE </attack_type>
+      <attack_total> 2 </attack_total>
+      <attack_point_0>
+        <x> 1 </x>
+        <y> 0 </y>
+      </attack_point_0>
+      <attack_point_1>
+        <x> 2 </x>
+        <y> 0 </y>
+      </attack_point_1>
+    </attack>
+  </card> 
+
+ <card>
+    <id> 22 </id>          <!-- 22 : 보스 기술1 (공격2) -->
+    <ad> 30 </ad>
+    <tp> 6 </tp>
+    <en> 0 </en>
+    <job>NONE</job>
+    <key>attack_2</key>
+   <notice>카드22 발동!</notice>
+    <move>
+      <move_type> RELATIVE </move_type>
+      <move_point>
+        <x> -1 </x>
+        <y> 0 </y>
+      </move_point>
+    </move>
+  <attack>
+      <attack_type> RELATIVE </attack_type>
+      <attack_total> 3 </attack_total>
+      <attack_point_0>
+        <x> 2 </x>
+        <y> 0 </y>
+      </attack_point_0>
+      <attack_point_1>
+        <x> 2 </x>
+        <y> 1 </y>
+      </attack_point_1>
+        <attack_point_2>
+        <x> 2 </x>
+        <y> -1 </y>
+      </attack_point_2>
+    </attack>
+  </card> 
+
+ <card>
+    <id> 23 </id>          <!-- 23 : 보스 기술2 (공격3) -->
+    <ad> 35 </ad>
+    <tp> 8 </tp>
+    <en> 0 </en>
+    <job>NONE</job>
+    <key>attack_3</key>
+    <notice>카드23 발동!</notice>
+    <move>
+      <move_type> RELATIVE </move_type>
+      <move_point>
+        <x> 0 </x>
+        <y> 0 </y>
+      </move_point>
+    </move>
+  <attack>
+      <attack_type> RELATIVE </attack_type>
+      <attack_total> 2 </attack_total>
+      <attack_point_0>
+        <x> 2 </x>
+        <y> 0 </y>
+      </attack_point_0>
+      <attack_point_1>
+        <x> 3 </x>
+        <y> 0 </y>
+      </attack_point_1>
+    </attack>
+  </card> 
+  
+ <card>
+    <id> 24 </id>          <!-- 24 : 보스 기술3 (공격4) -->
+    <ad> 30 </ad>
+    <tp> 4 </tp>
+    <en> 0 </en>
+    <job>NONE</job>
+    <key>attack_4</key>
+    <notice>카드24 발동!</notice>
+    <move>
+      <move_type> RELATIVE </move_type>
+      <move_point>
+        <x> 0 </x>
+        <y> 0 </y>
+      </move_point>
+    </move>
+  <attack>
+      <attack_type> RELATIVE </attack_type>
+      <attack_total> 6 </attack_total>
+      <attack_point_0>
+        <x> -1 </x>
+        <y> 1 </y>
+      </attack_point_0>
+      <attack_point_1>
+        <x> 0 </x>
+        <y> 1 </y>
+      </attack_point_1>
+    <attack_point_2>
+        <x> 1 </x>
+        <y> 1 </y>
+      </attack_point_2>
+       <attack_point_3>
+        <x> -1 </x>
+        <y> -1 </y>
+      </attack_point_3>
+      <attack_point_4>
+        <x> 0 </x>
+        <y> -1 </y>
+      </attack_point_4>
+    <attack_point_5>
+        <x> 1 </x>
+        <y> -1 </y>
+      </attack_point_5>
+    </attack>
+  </card> 
+
+   <card>
+    <id> 25 </id>          <!-- 25 : 보스 특수 (공격5) -->
+    <ad> 30 </ad>
+    <tp> 4 </tp>
+    <en> 0 </en>
+    <job>NONE</job>
+    <key>attack_5</key>
+    <notice>카드25 발동!</notice>
+    <move>
+      <move_type> RELATIVE </move_type>
+      <move_point>
+        <x> 0 </x>
+        <y> 0 </y>
+      </move_point>
+    </move>
+  <attack>
+      <attack_type> RELATIVE </attack_type>
+      <attack_total> 6 </attack_total>
+      <attack_point_0>
+        <x> -1 </x>
+        <y> 1 </y>
+      </attack_point_0>
+      <attack_point_1>
+        <x> 0 </x>
+        <y> 1 </y>
+      </attack_point_1>
+    <attack_point_2>
+        <x> 1 </x>
+        <y> 1 </y>
+      </attack_point_2>
+       <attack_point_3>
+        <x> -1 </x>
+        <y> -1 </y>
+      </attack_point_3>
+      <attack_point_4>
+        <x> 0 </x>
+        <y> -1 </y>
+      </attack_point_4>
+    <attack_point_5>
+        <x> 1 </x>
+        <y> -1 </y>
+      </attack_point_5>
+    </attack>
+  </card> 
+    
+ <card>
+    <id> 26 </id>          <!-- 26 : 보스 궁극기 (공격6), 수정 필요 -->
+    <ad> 25 </ad>
+    <tp> 10 </tp>
+    <en> 0 </en>
+    <job>NONE</job>
+    <key>attack_6</key>
+    <notice>카드26 발동!</notice>
+    <move>
+      <move_type> RELATIVE </move_type>
+      <move_point>
+        <x> 0 </x>
+        <y> 0 </y>
+      </move_point>
+    </move>
+  <attack>
+      <attack_type> RELATIVE </attack_type>
+      <attack_total> 12 </attack_total>
+      <attack_point_0>
+        <x> 1 </x>
+        <y> 0 </y>
+      </attack_point_0>
+      <attack_point_1>
+        <x> 2 </x>
+        <y> 0 </y>
+      </attack_point_1>
+    <attack_point_2>
+        <x> 3 </x>
+        <y> 0 </y>
+      </attack_point_2>
+    <attack_point_3>
+      <x> -1 </x>
+      <y> 0 </y>
+    </attack_point_3>
+    <attack_point_4>
+      <x> -2 </x>
+      <y> 0 </y>
+    </attack_point_4>
+    <attack_point_5>
+      <x> -3 </x>
+      <y> 0 </y>
+    </attack_point_5>
+    <attack_point_6>
+      <x> 0 </x>
+      <y> 1 </y>
+    </attack_point_6>
+    <attack_point_7>
+      <x> 0 </x>
+      <y> 2 </y>
+    </attack_point_7>
+    <attack_point_8>
+      <x> 0 </x>
+      <y> 3 </y>
+    </attack_point_8>
+    <attack_point_9>
+      <x> 0 </x>
+      <y> -1 </y>
+    </attack_point_9>
+    <attack_point_10>
+      <x> 0 </x>
+      <y> -2 </y>
+    </attack_point_10>
+    <attack_point_11>
+      <x> 0 </x>
+      <y> -3 </y>
+    </attack_point_11>
+    </attack>
+  </card>
+
+  <!-- 여기까지 보스2 카드들... (ID 21 ~ 26) -->
+
+</CardInfo>
